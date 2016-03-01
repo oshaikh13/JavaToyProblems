@@ -20,3 +20,6 @@ Make sure the parens in the statement are balanced
 
 ### Binary Search: 
 Implement Binary Search
+
+### Bubble Sort: 
+Implement Bubble Sort
