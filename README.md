@@ -11,6 +11,9 @@ For example. 'abc' would yeild [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
 Be a compiler lol
 
 Make sure the parens in the statement are balanced
+
 "{[[]]}(())()" is balanced.
+
 "{{{{{{{" is not
+
 "yo yo yo look ([whos]) () {} {} ()here" is balanced 
