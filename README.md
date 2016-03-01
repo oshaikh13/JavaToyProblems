@@ -17,3 +17,6 @@ Make sure the parens in the statement are balanced
 "{{{{{{{" is not
 
 "yo yo yo look ([whos]) () {} {} ()here" is balanced 
+
+### Binary Search: 
+Implement Binary Search
