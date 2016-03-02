@@ -12,11 +12,16 @@ class EvenOccurence {
         for (int i = 0; i < x.length; i++) {
             Integer retreivedVal = elementNum.get(x[i]);
             if (retreivedVal == null) {
-                elementNum.put(x[i], 0); 
-            } else if (retreivedVal % 2 == 0){
-                return x[i];
+                elementNum.put(x[i], 1); 
             } else {
                 elementNum.put(x[i], ++retreivedVal);
+            }
+        }
+
+        for (int i = 0; i < x.length; i++) {
+            Integer retreivedVal = elementNum.get(x[i]);
+            if (retreivedVal % 2 == 0) {
+                return x[i];
             }
         }
 
